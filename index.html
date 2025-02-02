@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://kit.fontawesome.com/056acc338c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="profile-card">
+      <img
+        src="profile.jpg"
+        alt="Profile Picture"
+        data-testid="profilePicture"
+      />
+      <h2 data-testid="fullName">Odion Samuel</h2>
+      <h4 data-testid="jobTitle">Frontend Developer</h4>
+      <p class="bio" data-testid="shortBio">
+        A passionate frontend developer with a passion of specializing in web
+        technologies and transforming UI designs into responsive applications.
+      </p>
+      <p class="location" data-testid="currentLocation">
+        <span><i class="fa-solid fa-location-dot"></i></span> Benin City, Edo
+        state, Nigeria.
+      </p>
+
+      <p class="location" data-testid="emailAddress">
+        <span><i class="fa-regular fa-envelope"></i></span>
+        odionsamuel2005.com
+      </p>
+      <div class="social-links" data-testid="socialLinks">
+        <a href="https://github.com/Happiesamuel" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://x.com/hs_the_dev" target="_blank">
+          <i class="fa-brands fa-x-twitter"></i
+        ></a>
+      </div>
+      <p data-testid="currentTimeUTC" class="utc-time"></p>
+    </div>
+  </body>
+</html>
